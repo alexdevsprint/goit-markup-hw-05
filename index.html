@@ -588,7 +588,25 @@
               </svg>
             </div>
           </div>
+          <div class="modal-comment-wrapper">
+            <label class="modal-label" for="user-comment">Comment</label>
+            <textarea class="modal-comment-fild" id="user-comment" name="user-comment" placeholder="Text input"></textarea>
+          </div>
+          <div class="modal-policy-wrapper">            
+            <input class="modal-policy-checkbox" type="checkbox" value="true" id="user-privacy" name="user-privacy">
+            <label class="modal-policy-label" for="user-privacy">
+              <span class="modal-policy-label-part">
+                <svg class="modal-checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-checkbox"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+            <a class="modal-policy-link">Privacy Policy</a>
+            </label>
+          </div>
+          <button class="modal-form-btn" type="submit">Send</button>
         </form>
+
       </div>
     </div>
   </body>
