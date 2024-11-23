@@ -615,7 +615,7 @@ a {
   margin-bottom: 16px;
 }
 
-.modal-form-wrapper {
+.modal-form-field {
   margin-bottom: 8px;
 }
 
@@ -628,7 +628,7 @@ a {
   margin-bottom: 4px;
 }
 
-.modal-fild-wrapper {
+.modal-form-input-wrapper {
   position: relative;
 }
 
