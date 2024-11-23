@@ -651,11 +651,11 @@ a {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-fild:focus .modal-icon {
+.modal-form-input:focus .modal-icon {
   fill: #4d5ae5;
 }
 
-.modal-fild:hover .modal-icon {
+.modal-form-input:hover .modal-icon {
   fill: #4d5ae5;
   background-color: #404bbf;
 }
@@ -678,6 +678,10 @@ a {
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+modal-form-comment-textarea:focus {
+  border-color: #4D5AE5; 
 }
 
 .modal-policy {
