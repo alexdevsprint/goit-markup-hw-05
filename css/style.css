@@ -716,7 +716,7 @@ a {
   text-decoration-skip-ink: none;
 }
 
-.modal-policy-checkbox:checked + .modal-policy-label > .modal-policy-label-part { 
+.modal-policy-checkbox:checked + .modal-policy-label > .modal-policy-input-part { 
     background-color: #404BBF; 
     border: none; 
     fill: #F4F4FD; 
